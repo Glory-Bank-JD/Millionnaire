@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 11 Feb 2021 01:39:19 at http://www.lesateliersdubes.fr/fr/menuiserie-escalier-lozere-aveyron-cantal/amenagement-menuisier-aubrac/3-escaliers-bois-traditionnel-contemporain.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" http://www.lesateliersdubes.fr/fr/menuiserie-escalier-lozere-aveyron-cantal/amenagement-menuisier-aubrac/3-escaliers-bois-traditionnel-contemporain.php -O1 "C:\Users\ADANA\Desktop\groupe" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:39:20	Warning: 	Note: due to www.lesateliersdubes.fr remote robots.txt rules, links beginning with these path will be forbidden: /admin_babylone, /include_babylone (see in the options to disable this)
+01:45:45	Warning: 	Retry after error -2 (Receive Time Out) at link www.lesateliersdubes.fr/upload/galeries/galerie4/maxi/photo-191.-023333.jpg (from www.lesateliersdubes.fr/fr/menuiserie-escalier-lozere-aveyron-cantal/amenagement-menuisier-aubrac/3-escaliers-bois-traditionnel-contemporain.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 46 seconds : 120 links scanned, 118 files written (6455700 bytes overall) [6391101 bytes received at 15741 bytes/sec], 131048 bytes transferred using HTTP compression in 2 files, ratio 24%
+(No errors, 2 warnings, 0 messages)

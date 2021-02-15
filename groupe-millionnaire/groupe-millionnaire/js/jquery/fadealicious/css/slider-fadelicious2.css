@@ -1,0 +1,146 @@
+
+p {
+	margin-bottom: 14px;
+}
+#slider-container {
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height: 500px;
+	background-image: url(../images/slider-bg-border.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.slide {
+	width: 500px;
+	height: 500px;
+	background: url(../images/bg.png) repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0px;
+	overflow: hidden;
+	z-index: 0;
+}
+.slide.current{
+	z-index: 2;
+}
+.slide.previous{
+	z-index: 1;
+}
+.image-holder {
+	float: left;
+	vertical-align: baseline;
+	background: url(../images/bg.png) repeat;
+}
+.info {
+	padding:10px;
+	width: 500px;
+	height: 50px;
+	line-height:50px;
+	position: absolute;
+	top:0px;
+	background:url(../../../../theme/default/img/bg_legende.png) top left;
+/*	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 0;
+	margin-left: 0;*/
+}
+.info .title {
+	position: relative;
+	top: 0px;
+	height: 50px;
+	line-height:50px;
+}
+.info .title span {font-size:30px;color:#FFF;}
+.info .title strong {margin-left:15px;font-size:20px;color:#FFF;}
+.info .title h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 54px;
+	font-size: 60px;
+	display: block;
+	margin-bottom: 12px;
+}
+.info .description {
+	position: absolute;
+	bottom: 0px;
+}
+.info .description strong {
+	padding-bottom: 20px;
+	display: block;
+	font-weight:bold;
+}
+#slider-container .pagination {
+	list-style:none;
+	position: absolute;
+	z-index: 999;
+	/*background: url(../images/bg.png) repeat;*/
+	bottom: 1em;
+	right:1em;
+}
+#slider-container .pagination li {
+	float:left;
+	list-style:none;
+}
+#slider-container .pagination li a {
+	display:block;
+	/*-moz-border-radius: 33px;
+	-webkit-border-radius: 33px;
+	border-radius: 33px;*/
+	float:left;
+	overflow:hidden;
+	margin: 3px;
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 15px;
+	width: 15px;
+	background-color: #CCCCCC;
+}
+#slider-container .pagination li a:hover, #slider-container .pagination li.current a {
+	background-color: #707070;
+}
+/*#slider-container  .next, #slider-container  .prev {
+	width:48px;
+	height:48px;
+	text-indent:-9999px;
+	position: absolute;
+	top:48%;
+	z-index: 999;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#slider-container .prev {
+	left: 10px;
+	background: url(../images/slider-arrow.png) no-repeat scroll left top;
+}
+#slider-container .prev:hover {
+	background: url(../images/slider-arrow.png) no-repeat scroll left -47px;
+}
+#slider-container .next {
+	right:10px;
+	background: url(../images/slider-arrow.png) no-repeat scroll right top;
+}
+#slider-container .next:hover {
+	background: url(../images/slider-arrow.png) no-repeat scroll right -47px;
+}
+*/
+.button {
+/*	cursor:pointer;
+	text-align:center;
+	display:inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	color:#fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#707070;
+	padding: 3px 7px;
+	font-size: 11px;
+	text-decoration:none;*/
+}
+.button:hover{/*
+	text-decoration:underline;*/
+}
